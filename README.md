@@ -12,13 +12,13 @@ header files (.h) - contains led animation functions, which I found in the web a
 
 The color space used is HSV because of the ease of controlling colors, saturation and brightness in animations, as well as separate values.
 
-Arduino IDE preferences:
+## Arduino IDE preferences:
 In board manager I recommend to install "esp32" by Espressif Systems in 1.0.6 version. Also recommend to install "esp8266" by ESP8266 Comunity in 2.7.0 version. These versions are stable and works perfectly with this project. Newer versions have caused some connectivity problems.
 If you can't find the boards in the manager, try pasting these URLs in the Arduino preferences:
 https://dl.espressif.com/dl/package_esp32_index.json
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
-HOW TO MANAGE THESE FILES:
+## HOW TO MANAGE THESE FILES:
 
 1. You need to get MAC adresses from your ESP8266 devices and apply them into "main.ino".
 2. Then send "main.ino" file into your ESP32 device.
@@ -26,7 +26,7 @@ HOW TO MANAGE THESE FILES:
 4. Install "LEDoN.apk" on your android phone, turn on bluetooth, and try connect with ESP32 device (name of device can be edited in the "main.ino")
 5. Turn on LEDoN application, connect with ESP32 device, and have a fun :)
 
-In the LEDoN app, you can:
+### In the LEDoN app, you can:
 - turn on and off
 - controll hue, saturation and brightness
 - choose ammount of controlled LED modules despite of your LED stripe
