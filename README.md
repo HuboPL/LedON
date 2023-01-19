@@ -4,7 +4,7 @@
 The project is designed to use two ESP8266 modules controlling RGB leds via D2 digital output and an ESP32 module communicating with them via ESP-NOW and the mobile app via Bluetooth.
 
 You can edit "ESP32/main.ino" code to increase the number of receiving devices (ESP8266) by adding their MAC addresses (broadcastAddress) into code.
-You need to add their peer register in the "void setup()" function to handle ESP_NOW communication.
+You need to add their peer register in the "void setup()" method to handle ESP_NOW communication.
 
 In "ESP8266" folder there are a few files: 
 "secondary.ino" - the main code of the receiving device, which also includes references to header files ; 
